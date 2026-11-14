@@ -1,0 +1,25 @@
+.itdex{padding:64px clamp(20px,5vw,64px);color:#17243c;scroll-margin-top:24px}
+.itdex *{box-sizing:border-box}
+.itdex-eyebrow{margin:0 0 8px;color:#ee3553;font-family:monospace;font-weight:800;letter-spacing:2px}
+.itdex h2{margin:0;font-size:clamp(24px,3vw,32px)}
+.itdex-intro{margin:12px 0 28px;color:#64748b;line-height:1.6}
+.itdex-shell{overflow:hidden;border:6px solid #ee3553;border-radius:28px;background:#f7f8fc;box-shadow:0 8px 0 #be2440,0 18px 35px #17243c12}
+.itdex-header,.itdex-footer{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;padding:18px 24px;font-family:monospace;font-weight:800}
+.itdex-header{color:#fff;background:#ee3553}
+.itdex-header span:last-child{padding:8px 12px;border-radius:20px;color:#17243c;background:#fff;font-size:11px}
+.itdex-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:14px;padding:28px}
+.itdex-slot{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;min-width:0;min-height:148px;padding:24px 8px 16px;border:2px solid transparent;border-radius:22px;background:#eceef6;color:#17243c;font:inherit;cursor:pointer;transition:transform .15s,background .15s}
+.itdex-slot:not(:disabled):hover{transform:translateY(-4px);background:#e0edff}
+.itdex-slot.is-selected{border-color:#e5a713;background:#fff0a6;box-shadow:0 4px 0 #e5a713}
+.itdex-slot:focus-visible{outline:3px solid #287ddd;outline-offset:4px}
+.itdex-number{position:absolute;top:10px;left:12px;color:#64748b;font:11px monospace}
+.itdex-icon{font-size:38px;line-height:1}
+.itdex-name{font-size:12px;font-weight:800;text-align:center;overflow-wrap:anywhere}
+.itdex-slot.is-empty{border:2px dashed #d4dbe7;background:transparent;color:#94a3b8;cursor:default}
+.itdex-details{margin:0 28px 24px;padding:24px;border:1px solid #d5e3f5;border-radius:18px;background:#fff}
+.itdex-category{display:inline-block;padding:6px 10px;border-radius:8px;background:#eaf3ff;color:#246ec2;font-size:11px;font-weight:800}
+.itdex-details h3{margin:12px 0 8px}.itdex-details p{margin:0;color:#64748b;line-height:1.7}
+.itdex-footer{border-top:1px solid #dce3ef;color:#64748b;font-size:10px}
+@media(max-width:1100px){.itdex-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:540px){.itdex-grid{grid-template-columns:repeat(2,minmax(0,1fr));padding:16px;gap:10px}.itdex-details{margin:0 16px 16px;padding:18px}.itdex-header,.itdex-footer{padding:16px}}
+@media(prefers-reduced-motion:reduce){.itdex-slot{transition:none}.itdex-slot:not(:disabled):hover{transform:none}}
