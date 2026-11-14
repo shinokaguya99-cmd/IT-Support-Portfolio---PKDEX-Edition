@@ -128,7 +128,7 @@ function App() {
             <div className="about-copy">
               <span className="red-label">A LITTLE ABOUT MY JOURNEY</span>
               <h3>Curious mind. Helpful nature. <em>Always learning.</em></h3>
-              <p>I'm an aspiring IT professional who enjoys helping users, troubleshooting technical issues, and learning how technology works. I believe every ticket solved is experience gained and every challenge is a chance to improve.</p>
+              <p>Technical Support Engineer with experience in IT service desk operations, Windows administration, Active Directory, and Microsoft 365 support. Skilled in resolving hardware, software, printer, and network issues, preparing workstations, and managing software licenses. Focused on clear documentation, reliable technical support, and helping users work efficiently.</p>
               <p>My goal is to keep growing my technical knowledge while delivering clear, reliable, and friendly support.</p>
               <div className="info-pills"><span>📍 Philippines</span><span>💡 Continuous learner</span><span>🛠️ IT Support</span></div>
             </div>
