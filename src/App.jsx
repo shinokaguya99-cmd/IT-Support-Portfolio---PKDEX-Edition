@@ -58,7 +58,7 @@ function App() {
     <div className="app-shell">
       <aside className={`sidebar ${menuOpen ? 'sidebar-open' : ''}`}>
         <div className="brand">
-          <img src="/profile2.png" alt="Pixel trainer" style={{ width: 90, height: 90, objectFit: "contain", imageRendering: "pixelated" }} />
+          <img src={`${import.meta.env.BASE_URL}profile2.png`} alt="Pixel trainer" style={{ width: 90, height: 90, objectFit: "contain", imageRendering: "pixelated" }} />
           <div className="brand-title">TRAINER<span>PORTFOLIO</span></div>
           <p>Catch my skills. <span>✦</span></p>
         </div>
@@ -103,7 +103,7 @@ function App() {
               <div className="orbit orbit-one" /><div className="orbit orbit-two" />
               <div className="hero-spark spark-a">✦</div><div className="hero-spark spark-b">✧</div>
 
-              <img src="/logo.png" alt="IT support" style={{ width: 280, height: 280, objectFit: "contain", imageRendering: "pixelated" }} />
+              <img src={`${import.meta.env.BASE_URL}logo.png`} alt="IT support" style={{ width: 280, height: 280, objectFit: "contain", imageRendering: "pixelated" }} />
               {/*<div className="hero-pokeball"><Pokeball /></div>*/}
               <div className="hero-level"><span>Years of Experience</span><strong>05</strong><small>READY TO GROW</small></div>
               <div className="hero-chip">IT • SUPPORT • TECH</div>
@@ -120,7 +120,7 @@ function App() {
 
 
               {/* LINE ADDED */}
-              <div className="avatar-placeholder"><img src="/profile.png" alt="My photo" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "50%" }} /><span className="avatar-star">✦</span></div>
+              <div className="avatar-placeholder"><img src={`${import.meta.env.BASE_URL}profile.png`} alt="My photo" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "50%" }} /><span className="avatar-star">✦</span></div>
               {/* <div className="avatar-placeholder"><UserRound size={62} /><span className="avatar-star">✦</span></div> */}
               <h3>[ALFIE REAL]</h3><p className="trainer-role">IT SUPPORT SPECIALIST</p>
               <div className="trainer-card-bottom"><span><i /> ACTIVE TRAINER</span><Pokeball small /></div>
